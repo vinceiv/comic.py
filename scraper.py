@@ -22,7 +22,6 @@ def scrape(arg):
 
     div = arg.find("div", {"id": "omv"})
     for p in div.find_all("img", class_='picture'):
-        
         image_url = url + str(p.get('src'))
         
         parse = str(p.get('src'))
@@ -55,5 +54,4 @@ def nextPage(arg1):
 if __name__ == "__main__":
     if not os.path.exists(download_folder):
         os.makedirs(download_folder)
-    initScraper(url + str(sys.argv[1])
-
+    initScraper(url + str(sys.argv[1]))
