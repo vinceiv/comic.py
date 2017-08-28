@@ -9,7 +9,7 @@ This program is a proof of concept web scraper that scrapes comic book scan site
 ```
 pip install selenium
 ```
--[Beautiful soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [Beautiful soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 ```
 pip install beautifulsoup4
 ```
